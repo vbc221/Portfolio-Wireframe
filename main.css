@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical align: baseline;
+  background:transparent;
+}
+
+.clearfix::after {
+  content: '':
+  clear: both;
+  display: table;
+}
+
+html {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+body{
+  width: 60%;
+  margin: auto;
+  background-image: url(background-iamge);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: #17191A;
+  position:float;
+  line-height: 1.5;
+ 
+}
+
+h2{
+  font-size: 35px;
+  font-weight: 400;
+  color: #17191A;
+  line-height: 1.5; 
+  
+}
+p{
+  color:black;
+  font-weight:100;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: navajowhite;
+  line-height: 1.5;
+  border: 2px solid black;
+}
